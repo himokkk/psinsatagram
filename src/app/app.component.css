@@ -1,0 +1,12 @@
+#main {
+ margin-left: auto;
+ margin-right: auto;
+ display: table;
+ border: 5px solid red;
+ min-width: 500px;
+ min-height: 700px;
+ padding: 10px;
+}
+h1 {
+  user-select: none;
+}

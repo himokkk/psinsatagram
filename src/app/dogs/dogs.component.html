@@ -1,0 +1,10 @@
+<div>
+    <div style="float: left;">
+      <select formControlName="dog" class="form-control" (change)="onChange($event)">
+        <option hidden>Wybierz rasę psa</option>
+        <option *ngFor="let dog of dogs">{{dog}}</option>
+      </select>
+    </div>
+    <section style="float: left; margin-left: 5rem;">
+    </section>
+</div>
